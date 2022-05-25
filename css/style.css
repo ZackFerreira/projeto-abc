@@ -1,0 +1,73 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   background-color: lightgoldenrodyellow;
+   font-family: 'Sarala', sans-serif;
+   margin: 0;
+
+}
+
+.Conteudo-principal {
+   font-family: 'Righteous', sans-serif;
+   background-color: black;
+   color: rgb(255, 255, 255);
+   margin: 0%;
+   padding-left: 12px;
+
+}
+
+#imagem-decorativa {
+   background-image: url(../imagens/teclado.jpg);
+   height: 350px;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.conteudo-secundario-texto {
+   font-size: 'sarala', sans-serif;
+   width: 80%;
+   margin: auto;
+}
+
+.rodapé {
+   height: 150px;
+   background: rgb(7, 4, 55);
+   background: linear-gradient(90deg, rgba(7, 4, 55, 1) 9%, rgba(9, 9, 121, 1) 35%, rgba(8, 34, 137, 1) 68%, rgba(20, 89, 224, 1) 96%);
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Sarala', sans-serif;
+   color: white;
+    /*resolve efeitos de float no rodapé*/
+
+    clear: both;
+}
+/* DIV que envolve as seções */
+.treinamentos {
+   display: flex;
+   justify-content: space-evenly;
+
+}
+
+/* Seções "filhas" da div de treinamentos */
+.treinamentos section {
+   background-color: white;
+   border-radius: 10px;
+   padding: 10px;
+   text-align: center;
+   width: 32%;
+   box-shadow: black 1px 1px 10px;
+}
+.flutuar-esquerda {
+width: 250px;
+float: left;
+margin: 17px;
+margin-bottom: 15px;
+padding-top: 3px;
+}
+
+
+.rodapé-texto {}

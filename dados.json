@@ -1,0 +1,77 @@
+{
+  "vagas": [
+    {
+      "id": 1,
+      "titulo": "Programador Java Pleno"
+    },
+    {
+      "id": 2,
+      "titulo": "Analista Comercial"
+    },
+    {
+      "id": 3,
+      "titulo": "Instrutor Excel Avançado"
+    },
+    {
+      "id": 4,
+      "titulo": "Gerente de Projetos para .NET"
+    },
+    {
+      "id": 5,
+      "titulo": "Consultor de Desenvolvimento Agil"
+    },
+    {
+      "id": 6,
+      "titulo": "Programador VB.Net"
+    },
+    {
+      "id": 7,
+      "titulo": "Desenvolvedor Front-End"
+    }
+  ],
+  "candidatos": [
+    {
+      "id": 1
+    },
+    {
+      "nome": "Otavio Isaac Ferreira",
+      "data": "",
+      "telefone": "(11) 97733-2598",
+      "email": "otavioisaac@gmail.com",
+      "vaga": "Programador Java Pleno",
+      "id": 2
+    },
+    {
+      "nome": "Otavio Isaac Ferreira",
+      "data": "",
+      "telefone": "(11) 97733-2598",
+      "email": "otavioisaac@gmail.com",
+      "vaga": "Analista Comercial",
+      "id": 3
+    },
+    {
+      "nome": "Otavio Isaac Ferreira",
+      "data": "1996-12-04",
+      "telefone": "(11) 97733-2598",
+      "email": "otavioisaac@gmail.com",
+      "vaga": "Desenvolvedor Front-End",
+      "id": 4
+    },
+    {
+      "nome": "Otavio Isaac Ferreira",
+      "data": "",
+      "telefone": "(11) 97733-2598",
+      "email": "otavioisaac@gmail.com",
+      "vaga": "Programador VB.Net",
+      "id": 5
+    },
+    {
+      "nome": "Otavio Isaac Ferreira",
+      "data": "",
+      "telefone": "1122675429",
+      "email": "otavioisaac@gmail.com",
+      "vaga": "Analista Comercial",
+      "id": 6
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: rgb(7, 4, 55);
+  background: linear-gradient(90deg, rgba(7, 4, 55, 1) 9%, rgba(9, 9, 121, 1) 35%, rgba(8, 34, 137, 1) 68%, rgba(20, 89, 224, 1) 96%);
+  overflow: hidden;
+}
+
+/* Deixando os itens da lista
+  Flutuados à esquerda 
+  (na pratica, lado a lado */
+.menu li {
+  float: left;
+
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 14px 16px;
+}
+
+.menu a:hover {
+  background-color: white;
+  color: blue;
+}
+  /* escondendo a opção de item menu*/
+
+  .menu li.icone {
+    display: none;
+  }
+
+  @media screen and (max-width: 800px) {
+
+    /*escondendo os itens do menu */
+    .menu li {
+      display: none;
+    }
+
+    /*exibimos novamente o item menu */
+    .menu li.icone {
+      display: block;
+      float: right;
+
+    }
+  .menu.responsivo li {
+  float: none;
+  display: inline;
+
+  }
+.menu.aberto li {
+    float: none ;
+    display: inline;
+}
+/*quando o menu esta aberto, ele passa a ser a referencia para o posicionamento do botão*/
+ .menu.aberto { position: relative;}
+ /**/
+ .menu.aberto li.icone {
+  position: absolute;
+  right: 0;
+  top: 0;
+ }
+  }
+
+
+/* Exercícios (Design Responsivo)
+1) Crie uma regra condicional para telas de no
+máximo 760px de largura */
+
+/*2) Dentro desta regra, faça as seguintes alterações:
+
+  -Itens do menu: desative a propriedade float
+  -Links do menu: alinhe o texto no meio */
+p {
+  text-align: center;
+  justify-content: center;
+
+  /*-Links do menu: alinhe o texto no meio */
+}
+
+.menu li {
+  float: none;
+
+}
+
